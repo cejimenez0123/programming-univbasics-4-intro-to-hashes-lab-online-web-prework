@@ -26,7 +26,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-if not hash elsif hash[key]
+if hash elsif hash[key]
   do hash[key] += 1
 
   end
