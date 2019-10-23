@@ -26,7 +26,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  key if nil do
+  key if nil
     key = 1
   end
   return key
