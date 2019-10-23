@@ -26,7 +26,10 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash = hash[key] + 1
+  hash = hash[key]
+  def update_hash
+    hash[key] + 1 
+  end
 
 
 
